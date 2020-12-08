@@ -1,0 +1,30 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "ShortIT",
+  "description": "ShortIT",
+  "developer_name": "Sergio Fernández Celorio",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 2
+  },
+  "preferences": [
+    {
+      "id": "shortit_keyword",
+      "type": "keyword",
+      "name": "ShortIT",
+      "default_value": "short"
+    },
+    {
+      "id": "shortit_tly_apikey",
+      "type": "input",
+      "name": "Tly API key",
+      "description": "Your API key for Tly, you can generate one in https://t.ly"
+    },
+    {
+      "id": "shortit_bitly_apikey",
+      "type": "input",
+      "name": "Bitly API key",
+      "description": "Your API key for Bitly, you can generate one in https://app.bitly.com"
+    }
+  ]
+}
